@@ -1,0 +1,484 @@
+body{
+    margin: 0px;
+    display:block;
+}
+/************************Title bar********************/
+.re{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.ab1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    right: 480px;
+    top: 20px;
+}
+.ab2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    right: 390px;
+    top: 20px;
+}.ab3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    right: 310px;
+    top: 20px;
+}.ab4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    right: 190px;
+    top: 20px;
+}
+.ab5{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.l{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background: none;
+    color: #00ffee;
+    padding: 5px;
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #fd7f7f;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+.l:focus{
+    color:  #faa0a0; 
+    border-color: #00ffee;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+.ab1:hover{
+    color: rgb(255, 0, 0);
+}
+.ab2:hover{
+    color: rgb(17, 0, 255);
+}
+.ab3:hover{
+    color: rgb(0, 255, 34);
+}
+.ab4:hover{
+    color: rgb(198, 0, 248);
+}
+.web{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+.hr1{
+    color: rgb(0, 174, 255);
+    background-color: rgb(0, 174, 255);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    width: 205px;
+    position: absolute;
+    left: 250px;
+    top: 38px;
+}
+.web:hover{
+    color: rgb(163, 255, 217);
+}
+.img2{
+    width: 100px;
+    height: 50px;
+}
+.img{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+/******************************Home****************************/
+.div1{
+    background-color: #94D0CC;
+    width: 100%;
+    height: 780px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.name{
+    padding-top: 100px;
+    font-size: 180%;
+    margin: 0;
+}
+h1{
+    margin:0;
+    font-family: 'Great Vibes', cursive;
+}
+.ext{
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.mountain{
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 24%;
+}
+img{
+    margin: 0;
+}
+p{
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.butclu{
+    position: absolute;
+    bottom: 50%;
+    left: 15%;
+}
+.topclu{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+/***************************End Home***************************/
+/***************************About Class*******************/
+.div2{
+    background-color: #EEC4C4;
+    width: 100%;
+    height: 730px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+.profile{
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+.aboh{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin: 0;
+}
+.pro{
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+    margin: 0;
+}
+.proh{
+    position: absolute;
+    bottom: 300px;
+    right: 900px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.prop{
+    position: absolute;
+    bottom: 250px;
+    right: 400px;
+    font-size: 20px;
+}
+.butp{
+    width: 150px;
+    height: 32px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 100px;
+    right: 800px;
+    background: #0fa096;
+    color: #faa0a0;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(82, 82, 82);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.butp:focus{
+    background: #faa0a0;
+    color: #0fa096 ;
+    border-color: rgb(82, 82, 82);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.butp2{
+    width: 150px;
+    height: 32px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 100px;
+    right: 600px;
+    background: #0fa096;
+    color: #faa0a0;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(82, 82, 82);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.butp2:focus{
+    background: #faa0a0;
+    color: #0fa096 ;
+    border-color: rgb(82, 82, 82);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+/************************Skill Class*******************/
+.skills{
+    width: 100%;
+    height: 780px;
+    background-color: #F29191;
+    margin: 0;
+}
+.skillh{
+    padding: 50px 50px 10px 50px;
+    font-size:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+.skill0{
+    width: 100%;
+    height: 640px;
+}
+.skill1{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.ski1{
+    float: left;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.skih1{
+    position: absolute;
+    left: 350px;
+    bottom: 120px;
+    margin: 0;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+.skip1{
+    position: absolute;
+    left: 400px;
+    bottom: 80px;
+    font-size: 18px;
+}
+.hr01{
+    background: none;
+    border-style: none;
+    border-color: #0fa096;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 70%;
+}
+.skill2{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.ski2{
+    position: absolute;
+    left: 150px;
+    bottom: 20px;
+    margin: 0;
+}
+.skih2{
+    position: absolute;
+    left: 350px;
+    bottom: 120px;
+    margin: 0;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+.skip2{
+    position: absolute;
+    left: 400px;
+    bottom: 80px;
+    font-size: 18px;
+}
+/*****************************Contract me***********************/
+.bottom-container{
+    width: 100%;
+    height: 780px;
+    background-color: #D1D9D9;
+    margin: 0;
+}
+.contact-me{
+    width: 100%;
+    height: 600px;
+    display: block;
+    text-align: center;
+    position: relative;
+
+}
+.contracth{
+    padding: 50px 50px 10px 50px;
+    font-size:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+.contractp{
+    font-size:25px;
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+.cont{
+    background-color: #8a8a8a;
+    width: 30%;
+    color: #D1D9D9;
+}
+.cbox input[type = "email"],.cbox input[type = "text"]{
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(130, 247, 255);
+    padding: 10px 8px;
+    outline: none;
+    color: #e8effd;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin: auto;
+    
+}
+.cbox input[type = "email"]:focus,.cbox input[type = "text"]:focus{
+    border-color: rgb(235, 21, 199) ;
+    padding: 10px 25px;
+    margin: auto;
+}
+.send1{
+    background-color: #8a8a8a;
+    color: #e8effd;
+    width: 100px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(235, 21, 199) ;
+    border-radius: 12px;
+}
+.send1:focus{
+    background-color: #8a8a8a;
+    color: #e8effd;
+    width: 115px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(144, 248, 255);
+    border-radius: 12px;
+}
+::-webkit-input-placeholder{
+    color: #e8effd;
+}
+/********************Contract Me**********************/
+.contractsocial{
+    width: 100%;
+    height: 180px;
+    background-color: #252525;
+    position: relative;
+}
+.fa {
+    padding: 20px;
+    font-size: 300px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook:hover {
+    background: rgb(255, 255, 255);
+    color: #3B5998;
+    box-shadow: 0 0 15px #3970e6;
+}
+
+.fa-instagram {
+    background: #d400ff;
+    color: rgb(255, 255, 255);
+}
+.fa-instagram:hover {
+    background: #ffffff;
+    color: #d400ff;
+    box-shadow: 0 0 15px #d400ff;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-twitter:hover {
+    background: rgb(255, 255, 255);
+    color: #55ACEE;
+    box-shadow: 0 0 15px #55ACEE;
+}
+.fa-google {
+    background: #ff1e00;
+    color: white;
+}.fa-google:hover {
+    background: #ffffff;
+    color: #ff1e00;
+    box-shadow: 0 0 15px #ff1e00;
+}
+.google{
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+.instagram{
+    position: absolute;
+    left: 600px;
+    top: 20px;
+}
+.Twitter{
+    position: absolute;
+    left: 800px;
+    top: 20px;
+}
+.facebook{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+.gp{
+    position: absolute;
+    left: 5px;
+    top: 70px;
+    color: cornsilk;
+    text-shadow: 0 0 10px #dd4b39;
+}
+.tp{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    color: cornsilk;
+    text-shadow: 0 0 10px #55ACEE;
+}.ip{
+    position: absolute;
+    left: px;
+    top: 70px;
+    color: cornsilk;
+    text-shadow: 0 0 10px #ff00ff;
+}.fb{
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    color: cornsilk;
+    text-shadow: 0 0 10px #3B5998;
+}

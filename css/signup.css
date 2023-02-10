@@ -1,0 +1,119 @@
+.loginP2{
+    background-color: #284174;
+    font-family: sans-serif;
+}
+.in2{
+    margin-top: 2%;
+    margin-left: 685px;
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: #e8effd;
+}
+.for2{
+    border-style: solid;
+    border-color: #0487bb;
+    background-color: #0487bb;
+    border-width: 1px;
+    width: 13%;
+    margin-left: 680px;
+    margin-top: 0;
+    margin-bottom: 1%;
+    border-radius: 12px;
+}
+.sign{
+    background-color: #1c2946   ;
+    width: 40%;
+    height: 560px;
+}
+.signup{
+    color: #e8effd;
+}
+.box2 input[type = "email"],.box2 input[type = "password"],.box2 input[type = "tel"],.box2 input[type = "text"],.box2 input[type = "date"]{
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(130, 247, 255);
+    padding: 7px 8px;
+    outline: none;
+    color: #e8effd;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin: auto;
+    
+}
+.box2 input[type = "email"]:focus,.box2 input[type = "password"]:focus,.box2 input[type = "tel"]:focus,.box2 input[type = "text"]:focus,.box2 input[type = "date"]:focus{
+    border-color: rgb(235, 21, 199) ;
+    padding: 7px 25px;
+    margin: auto;
+}
+.box2{
+    margin: auto;
+}
+.sup2{
+    background-color: #1c2946;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(235, 21, 199) ;
+    border-radius: 12px;
+}
+.sup2:focus{
+    background-color: #1c2946;
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(144, 248, 255);
+    border-radius: 12px;
+}
+.con{
+    background-color: #1c2946;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(144, 248, 255);
+    border-radius: 12px;
+}
+.con:focus{
+    background-color: #1c2946;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color:rgb(235, 21, 199) ;
+    border-radius: 12px;
+}
+.gen{
+    background-color: #1c2946;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(144, 248, 255);
+    border-radius: 12px;
+}
+.gen:focus{
+    background-color: #1c2946;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 27px;
+    border: 2px;
+    border-style: solid;
+    border-color:rgb(235, 21, 199) ;
+    border-radius: 12px;
+}
+.tac{
+    font-size: 15px;
+}
+.tc:hover{
+    font-size: 16px;
+    color: #ff9100;
+}
