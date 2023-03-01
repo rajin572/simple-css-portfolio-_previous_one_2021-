@@ -15,6 +15,7 @@ body{
     position: absolute;
     right: 480px;
     top: 20px;
+    cursor: pointer;
 }
 .ab2{
     color: rgb(255, 255, 255);
@@ -22,23 +23,27 @@ body{
     position: absolute;
     right: 390px;
     top: 20px;
+    cursor: pointer;
 }.ab3{
     color: rgb(255, 255, 255);
     font-size: 25px;
     position: absolute;
     right: 310px;
     top: 20px;
+    cursor: pointer;
 }.ab4{
     color: rgb(255, 255, 255);
     font-size: 25px;
     position: absolute;
     right: 190px;
     top: 20px;
+    cursor: pointer;
 }
 .ab5{
     position: absolute;
     right: 40px;
     top: 20px;
+    cursor: pointer;
 }
 .l{
     width: 100px;
@@ -51,7 +56,8 @@ body{
     border-radius: 15px;
     border-style: solid;
     border-color: #fd7f7f;
-    box-shadow: 0 0 8px rgb(255, 255, 255);
+    /* box-shadow: 0 0 8px rgb(255, 255, 255); */
+    cursor: pointer;
 }
 .l:focus{
     color:  #faa0a0; 
@@ -201,6 +207,7 @@ p{
     border-radius: 12px;
     border-color: rgb(82, 82, 82);
     box-shadow: 0 0 5px rgb(0, 0, 0);
+    cursor: pointer;
 }
 .butp:focus{
     background: #faa0a0;
@@ -223,6 +230,7 @@ p{
     border-radius: 12px;
     border-color: rgb(82, 82, 82);
     box-shadow: 0 0 5px rgb(0, 0, 0);
+    cursor: pointer;
 }
 .butp2:focus{
     background: #faa0a0;
@@ -369,6 +377,7 @@ p{
     border-style: solid;
     border-color: rgb(235, 21, 199) ;
     border-radius: 12px;
+    cursor: pointer;
 }
 .send1:focus{
     background-color: #8a8a8a;
